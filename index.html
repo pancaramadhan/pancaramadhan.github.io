@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <title>FATMAWATI STORE</title>
+  <link rel="icon" type="image/x-icon" href="img/faviconn.png">
+
+<style type="text/css">
+	* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #04AA6D;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+</style>
+
+</head>
+
+<body class="bg-dark">
+  <div class="container-fluid text-light" style="height: 100vh">
+    <!-- nav section start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">FATMAWATI STORE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="!#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Others
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="!#">Contact</a></li>
+                <li><a class="dropdown-item" href="!#">Galeri</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/iphone1.jpg" class="d-block w-100" alt="tour guide image" style="height: 400px">
+          <div class="carousel-caption">
+            <h5>Iphone 14 Pro</h5>
+            <p>Layar iPhone 14 memiliki sudut melengkung yang mengikuti desain lekukan yang indah, dan semua sudut ini berada di dalam bidang persegi standar. Dengan layarnya berukuran 6,06 inci secara diagonal.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/iphone2.jpg" class="d-block w-100" alt="tour guide image 2" style="height: 400px">
+          <div class="carousel-caption">
+            <h5>Iphone 14 Plus</h5>
+            <p>Kekuatan baterai yang paling tahan lama dibanding iPhone mana pun yang pernah ada, dengan body yang lebih tangguh dari kaca ponsel pintar manapun</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/iphone3.jpg" class="d-block w-100" alt="tour guide image 3" style="height: 400px">
+          <div class="carousel-caption">
+            <h5>Iphone 14</h5>
+            <p>Desain yang mumpuni menjadi keunggulan iPhone 14, layar super retina XDR melengkung dan dilapisi dengan ceramic shield menjadikan tahan terhadap benturan</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="row text-center align-items-center mt-4">
+      <div class="col-12">
+        <center><img src="img/iphone.png" width="150" height="150" /></center>
+        <h2 class="mt-2">FATMAWATI Store</h2>
+        <i>Menjadi iPhone Store dengan <span style="color:coral">100+</span> cabang di Indonesia</i>
+      </div>
+    </div>
+
+	<!-- The App Section -->
+	<div class="container">
+		<h3 class="card-title text-center" style="color:white;"><u>The New iPhone</u></h3>
+	  <div class="row">
+	    <div class="column-66">
+	      <h1 class="xlarge-font"><b>iPhone 14</b></h1>
+	      <h1 class="large-font" style="color:MediumSeaGreen;"><b>Apa yang terbaru dari iPhone 14?</b></h1>
+	      <p>iPhone 14 memiliki spesifikasi kamera depan sebesar 12MP dengan cinematic mode, kamera belakang wide 12MP, dan ultrawide 12MP. Apple juga menambahkan teknologi baru yaitu Photonic Engine untuk meningkatkan performa dan hasil jepretan dengan kondisi minim cahaya.</p>
+	      <button class="button">Informasi Selengkapnya</button>
+	    </div>
+	    <div class="column-33">
+	        <img src="img/iyo.png" width="335" height="471">
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Clarity Section -->
+	<div class="container">
+	  <div class="row">
+	    <div class="column-33">
+	      <img src="img/iyoo.png" alt="App" width="335" height="471">
+	    </div>
+	    <div class="column-66">
+	      <h1 class="xlarge-font"><b>iPhone 14 Pro</b></h1>
+	      <h1 class="large-font" style="color:red;"><b>Penasaran Fitur Terbaru iPhone 14 Pro?</b></h1>
+	      <p>iPhone 14 Pro juga punya fitur always on display yang bisa menampilkan jam tanpa harus disentuh terlebih dahulu. Baterai pun akan lebih hemat. Layar ponsel pintar iPhone 14 Pro juga lebih adaptif dari refresh rate-nya. Refresh rate ponsel pintar ini bisa 10 Hz sampai 120 Hz.</p>
+	      <button class="button">Informasi Selengkapnya</button>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- The App Section -->
+	<div class="container">
+	  <div class="row">
+	    <div class="column-66">
+	      <h1 class="xlarge-font"><b>iPhone 14 Pro Max</b></h1>
+	      <h1 class="large-font" style="color:MediumSeaGreen;"><b>Mengapa Kamu Harus Membeli ini?</b></h1>
+	      <p>Phone 14 Pro Max memiliki Dynamic Island yang menggantikan fitur Takik pada iPhone 13 Pro Max. iPhone 14 Pro Max memiliki chipset A16 yang jelas lebih cepat. Memiliki tampilan yang lebih baik dengan refresh rate lebih baik.</p>
+	      <button class="button">Informasi Selengkapnya</button>
+	    </div>
+	    <div class="column-33">
+	        <img src="img/iyooo.png" width="335" height="471" >
+	    </div>
+	  </div>
+	</div>
+    <div class="row mt-5">
+    	 <h3 class="card-title text-center" style="color:white;"><u>Produk iPhone Terbaru</u></h3>
+    <div class="card-group text-dark mt-2">
+	  	<div class="card">
+	    	<center class="mt-2" ><a href="img/iphone14.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" >
+			<img src="img/iphone14.jpg" class="img-fluid" width="600" height="4000"></a></center>
+	    	<div class="card-body">
+	      	<h5 class="card-title">iPhone 14</h5>
+	      	<p class="card-text">Produk iPhone terbaru yang menawarkan beragam kemewahan dengan harga yang sangat terjangkau dipasarnya</p>
+	      	<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+	    	</div>
+	  	</div>
+  		<div class="card">
+    		<center class="mt-2"><a href="img/iphone12.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+			<img src="img/iphone12.jpg" class="img-fluid"  width="600" height="4000"></a></center>
+		    <div class="card-body">
+		      <h5 class="card-title">iPhone 14 Pro</h5>
+		      <p class="card-text">Kualitas terbaik di pasarnya dilengkapi dengan baterai yang super kuat dan kamera terbaik</p>
+		      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		    </div>
+	  </div>
+	  	<div class="card">
+		    <center class="mt-2"><a href="img/iphone1.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4" >
+			<img src="img/iphone1.jpg?image=251" class="img-fluid" width="600" height="40000">
+			</a></center>
+	    	<div class="card-body">
+		    <h5 class="card-title">iPhone 14 Pro Max</h5>
+		    <p class="card-text">Kualitas yang mumpuni menjadikan smartphone ini banyak diminati oleh banyak orang</p>
+		    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+		    </div>
+  		</div>
+	</div>
+</div>
+    <div class="row text-dark mt-4">
+		<h3 class="card-title text-center" style="color:white;"><u>Informasi Pemesanan</u></h3>
+      <div class="col-sm-4 g-4">
+        <div class="card">
+          <div class="card-body">
+          	<h5 class="card-title text-center">Contact Service</h5>
+            <p class="card-text">Untuk informasi pemesanan, silahkan menghubungi nomer dibawah ini</p>
+            <a href="!#" class="btn btn-dark d-block">Hubungi Sekarang</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 g-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Galeri</h5>
+            <p class="card-text">Tersedia berbagai type produk iPhone terbaru dan unggul</p>
+            <a href="!#" class="btn btn-dark d-block">Galeri iPhone</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 g-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Promo</h5>
+            <p class="card-text">Banyak promo dan cashback yang tersedia di FATMAWATI Store
+            </p>
+            <a href="!#" class="btn btn-dark d-block">Promo</a>
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+
+    <!--contact-->
+<section id="contact" class="mb-6">
+<div class="container mb-6">
+  <div class="mb-2 row text-center">
+    <h3><u>Hubungi Saya</u></h3>
+  </div>
+ 
+  <div class="row justify-content-center">
+    <div class="col-md-12">
+      <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+ 
+          <div class="mb-3 form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Subscribe to FATMAWATI Store's newsletter.</label>
+          </div>
+           
+          <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+           
+        </form>
+    </div>
+  </div>
+ 
+</div>
+</section>
+<!--end services-->
+<!-- Footer -->
+<br>
+
+<footer class="text-center text-lg-start bg-white text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Ikuti di Media Sosial Saya :</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="https://www.facebook.com/pancajaya86" class="me-4 link-secondary">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.twitter.com/pancarmd" class="me-4 link-secondary">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.gmail.com/pancasanjaya86@gmail.com" class="me-4 link-secondary">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="https://www.instagram.com/pancarmd" class="me-4 link-secondary">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkeid.com/pancarmd" class="me-4 link-secondary">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.github.com/pancarmd" class="me-4 link-secondary">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary"></i>FATMAWATI Store
+          </h6>
+          <p>
+          	iPhone Store terpercaya sejak tahun 2019 dengan 50 cabang yang tersebar di seluruh Indonesia, segera pesan dan dapatkan harga promo spesial
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Produk Terbaru
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">iPhone 14</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">iPhone 14 Plus</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">iPhone 14 Pro</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">iPhone 14 Pro Max</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Informasi
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Galeri</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">About</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contact Service</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Pemesanan</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i> Jauh disana, Prakerja</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            PRAKERJA@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> +62 858 **** ****</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> +62 895 **** ****</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="https://pancarama.com/">FATMAWATI.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+<!-- Footer -->
+
+
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+</body>
+</html>
